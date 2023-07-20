@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+header{
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: salmon;
+    color: #fff;
+}
+header h1{
+    padding: 10px;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: #1BBC9B;
+}
+
+nav ul{
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+ 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.idioma{
+    width: 20%;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+/* CONTENEDOR */
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+aside{
+    background-color: #f8f8f8;
+    width: 30%;
+    padding: 10px;
+}
+aside h2{
+    padding: 10px 0;
+}
+aside p{
+    padding: 10px 0;
+}
+
+
+/* BLOG */
+
+.blog{
+    width: 70%;
+    padding: 20px;
+}
+
+.publicacion{
+    padding: 10px 0;
+    border-bottom: 2px solid #5c5c5c;
+}
+
+.publicacion p{
+    padding: 10px 0;
+}
+.publicacion h2{
+    padding: 0 0 10px 0;
+}
+.publicacion h4{
+    padding: 0 0 10px 0;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    position: absolute;
+    background-color: #ddd;
+    text-align: center;
+}
